@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Contrail;
+    src: url(contrailone.ttf);
+}
+body{
+    min-width: 372px;
+}
+#Nome{
+    font-family: Contrail;
+    margin-left: 2.5%;
+    font-size: 250%;
+}
+#Slogan{
+    margin-top: -25px;
+}
+#searchbar{
+    position: absolute;
+    background-color: rgb(140, 82, 255);
+    margin-left: 400px;
+    top: 35px;
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+#searchbar::placeholder{
+    color: white;
+}
+button:active{
+    transform: translateY(4px);
+    transition: ease-in-out;
+    
+}
+button:hover{
+    background-color: rgba(140, 82, 255, 0.767);
+}
+button{
+    background-color: rgb(140, 82, 255);
+    border: none;
+    border-radius: 10%;
+    font-size: large;
+    color:white;
+}
+#Entrar{
+    position: absolute;
+    margin-left: 1120px;
+    top: 35px;
+    height: 40px;
+    width: 6%;
+}
+h1, p, label, h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.redes{
+    text-align: right;
+    margin-top: -25px;
+    width: 100%;
+    height: 150px; 
+}
+.Options{ 
+    background-color: rgb(140, 82, 255);
+    padding-top: 10x;
+    padding-bottom: 10px;
+    width: 101%;
+    height: 100%;
+    font-size: 30px;
+    margin-top: -105px;
+    margin-left: -8px;
+}
+
+#opcao{
+    margin-left: 500px;
+    width: 20%;
+    margin: auto;
+}
+#Parceiros{
+    margin-left: 55%;
+}
+
+#instagram{
+    height: 40px;
+    margin-right: 5px; 
+}
+
+#twitter{
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+#facebook{
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+#Carrinho{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    height: 60px;
+} 
+#text{
+    font-size: 30px;
+}
+.FieldsetRoupas{
+    border: none;
+}
+.Roupas{
+    border: none; 
+    position: absolute;
+    right: 30px; 
+    height: 150px;
+    width: 100%;
+    border: default;
+    text-align: center;
+    margin: auto;
+}
+#LabelInformação{ 
+    text-align: center;
+    margin: auto;
+}
+#MoletomNike{
+    background-color: rgb(233, 233, 233);
+    width: 400px;
+    margin-top: -440px;
+    margin-left: 250px;
+}
+#Roupa{ 
+    height: 350px;
+    margin-left: 50px;
+    margin-top: -15px;
+}
+#Roupa:Hover{
+    position: relative;
+    height: 400px;
+}
+#PreçoFalso{
+    text-decoration: line-through red;
+    text-align: left;
+    margin-left: 5px;
+}
+#Preço{
+    position: relative;
+    top: -50px;
+    text-align: right;
+    margin-right: 5px;
+    height: 5px;
+}
+#Comprar{
+    position: relative;
+    top: 15px;
+    width: 50%;
+    height: 40px;
+}
+#Desconto{
+    background-color: rgb(140, 82, 255);
+    position: relative;
+    top: -110px;
+    text-align: right;
+    margin-right: 10px;
+    height: 5px;
+}
+.teste{
+    float: left;
+}
