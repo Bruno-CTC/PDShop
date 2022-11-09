@@ -1,0 +1,22 @@
+{
+  "name": "pdshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NurbTheSlime/PDShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NurbTheSlime/PDShop/issues"
+  },
+  "homepage": "https://github.com/NurbTheSlime/PDShop#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
