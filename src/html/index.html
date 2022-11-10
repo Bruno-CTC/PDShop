@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PD Shop</title>
+    <link rel="stylesheet" href="/stylesheet/style.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d7bd8098e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="/"><img src="../img/logo.png" width="125px" /></a>
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/produtos/">Produtos</a></li>
+                        <li><a href="/sobre/">Sobre</a></li>
+                        <li><a href="#nove">Conteudo</a></li>
+                        <li><a href="/conta/">Conta</a></li>
+                    </ul>
+                </nav>
+                <a href="/carrinho/"><img src="../img/Ícone-Carrinho-de-Compras-PNG.png" width="30px" height="30px"></a>
+                <img src="../img/menu.png" class="iconeMenu" onclick="openMenu()" />
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Pense como um programador!</h1>
+                    <p>O inimigo mais perigoso que você poderá encontrar será sempre você mesmo.</p>
+                    <a href="" class="btn">Veja mais!</a>
+                </div>
+                <div class="col-2">
+                    <img src="../img/img1.png" alt />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categorias">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="../img/Categoria1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="../img/Categoria2.jfif">
+                </div>
+                <div class="col-3">
+                    <img src="../img/Categoria3.webp">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container" id="nove">
+        <h2 class="title">Produtos em Alta</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="../img/Moletom-Nike.jfif">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>Moletom Nike Preto</h4>
+                <p class="price">R$119,99</p>
+                <p>R$79,99</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/moletom-puma.jfif">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Moletom Puma Canguru Preto</h4>
+                <p class="price">R$150,00</p>
+                <p>R$120,0</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/Calça-Adidas.jpg">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Calça Adidas Essentials Preta</h4>
+                <p class="price">R$130,99</p>
+                <p>R$88,00</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/Tenis_nike.webp">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Tênis Nike Downshifter</h4>
+                <p class="price">R$89,00</p>
+                <p>R$60,50</p>
+            </div>
+        </div>
+        <h2 class="title">Ultimos Produtos</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="../img/jordan.webp">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>Tênis Nike Air Jordan</h4>
+                <p class="price">R$100,00</p>
+                <p>R$70,50</p>
+            </div>
+            <div class="col-4">
+                <a href="produtoDetalhe/"><img src="../img/Jogger.webp">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Calça Jogger Camuflada</h4>
+                <p class="price">R$130,00</p>
+                <p>R$98,90</p></a>
+            </div>
+            <div class="col-4">
+                <img src="../img/murasama.jfif">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>Espada Murasama Lendária</h4>
+                <p class="price">R$1.000.000,00</p>
+                <p>R$999.999,99</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/Flamengoetime.jfif">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Camiseta Flamengo Dry Parrot</h4>
+                <p class="price">R$135,50</p>
+                <p>R$100,00</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/relogioboss.jpg_v=637863419358470000">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Relógio Boss Preto</h4>
+                <p class="price">R$2500,00</p>
+                <p>R$2049,99</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/mercurial.jpg">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Chuteira Nike Mercurial SuperFly Vermelho</h4>
+                <p class="price">R$1499,00</p>
+                <p>R$1309,99</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/caneca.jfif">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Caneca Personalizada</h4>
+                <p class="price">R$50,00</p>
+                <p>R$35,00</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/canetaazul.webp">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>Caneta Azul Azul Caneta</h4>
+                <p class="price">R$1,0</p>
+                <p>R$0,99</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="oferta">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="../img/canetabic.png" class="imgOferta">
+                </div>
+                <div class="col-2">
+                    <p>Apenas na PD Shop!!</p>
+                    <h1>Caneta Bic</h1>
+                    <small>
+                        A caneta Bic 3.0 super da PD Shop tem uma
+                        função unica de baixar filmes piratas no torrent
+                        um dia ela baixou a era do gelo 3 e meu sobrinho
+                        carlos adorou.
+                    </small><br>
+                    <a href="" class="btn">Compre Agora &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comentario">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Muito boa essa caneta pena que meu cachorro comeu</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="../img/bluezao.jpg">
+                    <h3>Bluezao</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Bela caneta usei como espada e ela baixou utorrent na armadura de meus inimigos</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="../img/jetstream.jpg">
+                    <h3>Jetstream Sam</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Não sei o que rima com pescoço</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="../img/gabigol.jpg">
+                    <h3>Gabigol</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="patrocinios">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="../img/google.png">
+                </div>
+                <div class="col-5">
+                    <img src="../img/harvard.png">
+                </div>
+                <div class="col-5">
+                    <img src="../img/apple.png">
+                </div>
+                <div class="col-5">
+                    <img src="../img/banco do brasil.png">
+                </div>
+                <div class="col-5">
+                    <img src="../img/nintendo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Baixe nosso Aplicativo!</h3>
+                    <p>Baixe nosso aplicativo para promoções incríveis! no Android e IOS</p>
+                    <div class="logoApp">
+                        <a href="https://play.google.com/store/apps/details?id=com.dts.freefireth&hl=pt_BR&gl=US"><img src="../img/playstore.png"></a>
+                        <a href="https://apps.apple.com/br/app/pou/id575154654"><img src="../img/appstore.png"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../img/logo.png" style="background-color: #fff">
+                    <p>Nosso propósito é servir os nosso clientes(mó mentira isso na verdade é um trabalho de escola)</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <a href="https://www.cuponomia.com.br/"><li>Cupons</li></a>
+                        <a href="https://filipedeschamps.com.br/newsletter"><li>Blog</li></a>
+                        <a href="https://www.youtube.com/watch?v=KBtk5FUeJbk"><li>Política de Estorno</li></a>
+                        <a href="https://www.youtube.com/watch?v=MEg-oqI9qmw"><li>Torne-se um Sócio</li></a>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Nos Siga!</h3>
+                    <ul>
+                        <a href="https://pt-br.facebook.com/groups/ElonMusk/"><li>Facebook</li></a>
+                        <a href="https://twitter.com/jeffbezos"><li>Twitter</li></a>
+                        <a href="https://www.instagram.com/neymarjr/"><li>Instagram</li></a>
+                        <a href="https://www.youtube.com/channel/UCMiYXGD4kzw3pU8BnBNnkbg"><li>Youtube</li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 fake pode copiar não tem problema</p>
+        </div>
+    </div>
+
+    <script>
+        var menuItems = document.getElementById("menuItems");
+
+        menuItems.style.maxHeight = "0px";
+
+        function openMenu(){
+            if(menuItems.style.maxHeight == "0px"){
+                menuItems.style.maxHeight = "200px";
+            }
+            else
+                menuItems.style.maxHeight = "0px";
+        }
+    </script>
+</body>
+</html>

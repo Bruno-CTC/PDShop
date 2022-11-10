@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos os Produtos - PD Shop</title>
+    <link rel="stylesheet" href="/stylesheet/style.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d7bd8098e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="/"><img src="../img/logo.png" width="125px" /></a>
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#nove">Produtos</a></li>
+                        <li><a href="/sobre/">Sobre</a></li>
+                        <li><a href="#nove">Conteudo</a></li>
+                        <li><a href="/conta/">Conta</a></li>
+                    </ul>
+                </nav>
+                <a href="/carrinho/"><img src="../img/Ícone-Carrinho-de-Compras-PNG.png" width="30px" height="30px"></a>
+                <img src="../img/menu.png" class="iconeMenu" onclick="openMenu()" />
+            </div>
+        </div>
+
+    <div class="small-container" id="nove">
+        <div class="row row-2">
+            <h2>Todos os Produtos</h2>
+            <select>
+                <option>Relevantes</option>
+                <option>Ordenar por preço(Crescente)</option>
+                <option>Ordenar por preço(Decrescente</option>
+                <option>Ordernar por Avaliação</option>
+                <option>Ordenar por Popularidade</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="../img/Moletom-Nike.jfif">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>Moletom Nike Preto</h4>
+                <p class="price">R$119,99</p>
+                <p>R$79,99</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/moletom-puma.jfif">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Moletom Puma Canguru Preto</h4>
+                <p class="price">R$150,00</p>
+                <p>R$120,0</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/Calça-Adidas.jpg">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Calça Adidas Essentials Preta</h4>
+                <p class="price">R$130,99</p>
+                <p>R$88,00</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/Tenis_nike.webp">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Tênis Nike Downshifter</h4>
+                <p class="price">R$89,00</p>
+                <p>R$60,50</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/jordan.webp">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>Tênis Nike Air Jordan</h4>
+                <p class="price">R$100,00</p>
+                <p>R$70,50</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/Jogger.webp">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Calça Jogger Camuflada</h4>
+                <p class="price">R$130,00</p>
+                <p>R$98,90</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/murasama.jfif">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h4>Espada Murasama Lendária</h4>
+                <p class="price">R$1.000.000,00</p>
+                <p>R$999.999,99</p>
+            </div>
+            <div class="col-4">
+                <img src="../img/Flamengoetime.jfif">
+                <div class="aval">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h4>Camiseta Flamengo Dry Parrot</h4>
+                <p class="price">R$135,50</p>
+                <p>R$100,00</p>
+            </div>
+        </div>
+
+        <div class="btnPagina">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+     </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Baixe nosso Aplicativo!</h3>
+                    <p>Baixe nosso aplicativo para promoções incríveis! no Android e IOS</p>
+                    <div class="logoApp">
+                        <img src="../img/playstore.png">
+                        <img src="../img/appstore.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../img/logo.png" style="background-color: #fff">
+                    <p>Nosso propósito é servir os nosso clientes(mó mentira isso na verdade é um trabalho de escola)</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links Úteis</h3>
+                    <ul>
+                        <li>Cupons</li>
+                        <li>Blog</li>
+                        <li>Política de Estorno</li>
+                        <li>Torne-se um Sócio</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Nos Siga!</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 fake pode copiar não tem problema</p>
+        </div>
+    </div>
+
+    <script>
+        var menuItems = document.getElementById("menuItems");
+
+        menuItems.style.maxHeight = "0px";
+
+        function openMenu(){
+            if(menuItems.style.maxHeight == "0px"){
+                menuItems.style.maxHeight = "200px";
+            }
+            else
+                menuItems.style.maxHeight = "0px";
+        }
+    </script>
+</body>
+</html>
