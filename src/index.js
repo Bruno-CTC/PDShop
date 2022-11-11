@@ -14,7 +14,6 @@ app.get('/produtos/', rote)
 app.get('/carrinho/', rote)
 app.get('/conta/', rote)
 app.get('/sobre/', rote)
-app.get('/conta/incluir', rote)
 
 app.listen(port, () => {
     console.log("escutando a porta 8080");

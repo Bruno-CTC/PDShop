@@ -1,6 +1,7 @@
 const bd = require('../database/db.js')
 const user = require('../models/user')
 const path = require('path');
+const { Console } = require('console');
 
 const users = bd.Mongoose.model('esquemaUsers', user.UserSchema, 'users');
 
@@ -23,7 +24,8 @@ exports.carrinho = ('/carrinho/', async(req, res) =>{
 exports.sobre = ('/sobre/', async(req, res) =>{
     res.sendFile(path.join(__dirname, '../html/sobre.html'));
 })
-exports.renderIncluir = ('/conta/', async(req, res) => {
+exports.incluir = ('/conta/', async(req, res) => {
+    Console.log("entrou aqui");
     let username = req.body.username
     let email = req.body.email
     let password = req.body.password
