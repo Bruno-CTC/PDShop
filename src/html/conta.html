@@ -46,18 +46,18 @@
                                 <span onclick="register()">Registrar</span>
                                 <hr id="indicador">
                             </div>
-                            <form id="loginForm">
+                            <form action="/conta/" method="post" id="loginForm">
                                 <input type="text" placeholder="Usuário">
                                 <input type="password" placeholder="Senha">
-                                <button type="button" class="btn">Logar</button>
+                                <button type="submit" class="btn">Logar</button>
                                 <a href="">Esqueci minha Senha</a>
                             </form>
-                            <form id="regForm">
+                            <form action="/conta/" method="post" id="regForm">
                                 <input type="text" placeholder="Usuário" name="username" id="username">
                                 <input type="email" placeholder="Email" name="email" id="email">
                                 <input type="password" placeholder="Senha" name="password" id="password">
-                                <input type="password" placeholder="Confirmar Senha" id="password2">
-                                <button type="button" class="btn">Registrar</button>
+                                <input type="password" placeholder="Confirmar Senha" name="password2" id="password2">
+                                <button type="submit" class="btn">Registrar</button>
                             </form>
                         </div>
                     </div>
@@ -131,6 +131,10 @@
             reg.style.transform = "translateX(300px)"
             log.style.transform = "translateX(300px)"
             indicador.style.transform = "translateX(0px)"
+        }
+        function verificarSenha(){
+            var senha = 1
+            var senha2 = 2
         }
 
     </script>
